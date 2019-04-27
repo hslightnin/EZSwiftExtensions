@@ -17,11 +17,11 @@ class BoolTests: XCTestCase {
         XCTAssertEqual(f.toInt, 0)
     }
 
-    func testToggle() {
-        var value = false
-        value.toggle()
-        XCTAssertNotEqual(value, false)
-    }
+//    func testToggle() {
+//        var value = false
+//        value.toggle()
+//        XCTAssertNotEqual(value, false)
+//    }
     
     func testToggled() {
         let falseVal = false
